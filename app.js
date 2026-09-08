@@ -1,97 +1,97 @@
 // Asset Database details for modal inspection across pages
 const ASSET_DETAILS = {
-  // Corporate Showcase
-  'brand-logo': {
-    title: 'Simplicity Group Master Logo System',
-    category: 'Brand Identity',
-    img: 'assets/SG-Logo-Icon-Blue.jpg',
-    desc: 'The official master emblem and vector identity system for Simplicity Group. Scalable for high-definition 300 PPI print collateral, executive presentations, and responsive digital headers.',
-    path: 'Simplicity/Simplicity Group/Logo/JPG/300ppi/SG-Logo-Icon-Blue.jpg',
-    format: 'High-Res JPG / Vector AI',
-    usage: 'Master Brand Identity'
-  },
-  'bd-onboarding': {
-    title: 'Broker-Dealer 4-Step Advisor Pathway',
-    category: 'Brokerage & Sales',
-    img: 'assets/Simplicity-Broker-Dealer-Step-1.png',
-    desc: 'Part of a 4-part sequential visual guide engineered for Simplicity Broker-Dealer. Clarifies advisor contracting, registration, product access, and business scaling.',
-    path: 'Simplicity/Simplicity Group/Website Graphics/Graphics/Simplicity-Broker-Dealer-Step-1.png',
-    format: 'Transparent PNG / Illustrator Source',
-    usage: 'Advisor Onboarding & POS'
-  },
-  'advanced-planning': {
-    title: 'Advanced Markets & Planning Icon Suite',
-    category: 'Brand Identity',
-    img: 'assets/Advanced-Planning-Icon.png',
-    desc: 'Custom vector icon design representing advanced wealth management, estate planning, and tax strategy. Used across partner silod marketing materials.',
-    path: 'Simplicity/Simplicity Group/Website Graphics/Graphics/Advanced-Planning-Icon.png',
-    format: 'Vector PNG / AI',
-    usage: 'Silo Marketing & Web Graphics'
-  },
+  // Corporate Real Work Showcase
   'seven-principles': {
     title: 'Seven Creative Principles Brand Book',
-    category: 'Campaigns & Guidelines',
-    img: 'assets/iStock-1269045922.jpg',
-    desc: 'The official brand strategy guide and visual standards handbook for the Simplicity Creative Team. Defines grid systems, typography, color palettes, and multi-channel principles.',
-    path: 'Simplicity/Seven Creative Principles to Elevate Your Brand/',
-    format: 'InDesign (.indd) / PDF Guide',
-    usage: 'Internal Brand Elevation Standards'
+    category: 'Brand Book',
+    img: 'assets/Seven_Principles_Cover.png',
+    desc: 'Official brand strategy handbook and visual design principles guide rendered directly from the InDesign PDF in your Google Drive folder.',
+    path: 'Simplicity/Seven Creative Principles to Elevate Your Brand/Seven Creative Principles to Elevate Your Brand v01.pdf',
+    format: 'Adobe InDesign PDF / 200 DPI PNG Render',
+    usage: 'Internal Brand & Design Standards'
   },
-  'executive-suite': {
-    title: 'Executive & Wealth Imagery Suite',
-    category: 'Campaigns & Guidelines',
-    img: 'assets/iStock-2148975941.jpg',
-    desc: 'Curated high-production lifestyle and corporate imagery standard established for financial advisory campaigns, annual report covers, and digital media.',
-    path: 'Simplicity/Simplicity Group/Website Graphics/Graphics/iStock-2148975941.jpg',
-    format: 'High-Res Stock JPEG',
-    usage: 'National Consumer Campaigns'
+  'partnership-flyer': {
+    title: 'The Partnership You Need To Grow Flyer',
+    category: 'Flyer Collateral',
+    img: 'assets/Partnership_Flyer.png',
+    desc: 'Executive business growth flyer created for Simplicity advisor recruitment and agency scaling programs.',
+    path: 'Simplicity/Simplicity Group/Flyers/Simplicity - Flyer - The Partnership You Need to Grow - 06.30.26.pdf',
+    format: 'Print PDF / High-Res PNG Render',
+    usage: 'Advisor Growth & Recruiting POS'
   },
-  'step-sequence': {
-    title: 'Agent Center SSO & Portal Components',
-    category: 'Web & Digital',
-    img: 'assets/Simplicity-Broker-Dealer-Step-3.png',
-    desc: 'Digital workflow graphics designed for Simplicity Intranet and SSO Agent Resource Center. Simplifies complex operational steps into intuitive web cards.',
-    path: 'Simplicity/Web/Simplicity Partners Resource Center/',
-    format: 'Web-Optimized PNG',
-    usage: 'Portal UX & Intranet Banners'
+  'protect-paycheck': {
+    title: 'Protect Your Paycheck Infographic',
+    category: 'Infographic',
+    img: 'assets/Protect_Your_Paycheck_Infographic.png',
+    desc: 'Disability insurance and paycheck protection visual infographic engineered for client consultation and field presentation.',
+    path: 'Simplicity/Simplicity Group/Infographics/2026/Protect Your Paycheck/Simplicity - Infographic - Protect Your Paycheck.pdf',
+    format: 'Infographic PDF / PNG Render',
+    usage: 'Disability Insurance Consultation'
+  },
+  'sales-case-study': {
+    title: 'Simplicity Sales Training Case Study',
+    category: 'Case Study',
+    img: 'assets/Sales_Training_Case_Study.png',
+    desc: 'In-depth sales training case study collateral detailing advisor performance results, onboarding metrics, and sales enablement workflows.',
+    path: 'Simplicity/Simplicity Group/Case Studies/Simplicity Sales Training Case Study/Simplicity - Case Study - Sales Training.pdf',
+    format: 'Case Study PDF / PNG Render',
+    usage: 'Sales Enablement & Advisor Training'
+  },
+  'cash-balance-plan': {
+    title: 'Cash Balance Plan Solution Sheet',
+    category: 'Flyer Collateral',
+    img: 'assets/Cash_Balance_Plan_Flyer.png',
+    desc: 'Advanced markets financial flyer designed for business owners, medical practices, and high-income corporate executives.',
+    path: 'Simplicity/Simplicity Group/Flyers/Cash Balance Plan/Simplicity - Cash Balance Plan.pdf',
+    format: 'Advanced Markets PDF / PNG Render',
+    usage: 'B2B Advanced Tax Strategy'
+  },
+  'national-accounts-bio': {
+    title: 'National Accounts & POS Team Bio Sheet',
+    category: 'Flyer Collateral',
+    img: 'assets/National_Accounts_Bio_Sheet.png',
+    desc: 'Corporate brand template and point-of-sale bio sheet created for Simplicity National Accounts leadership and institutional relationships.',
+    path: 'Simplicity/Bio Sheets/National Accounts and POS/Simplicity - Bio Sheet - National Accounts.pdf',
+    format: 'Corporate POS PDF / PNG Render',
+    usage: 'Institutional National Accounts'
   },
 
-  // Independent Agent Showcase
+  // Independent Agent Real Work Showcase
+  'agent-flyer-apa': {
+    title: 'Asset Protection Advisors Earn Interest Flyer',
+    category: 'Flyers & Folders',
+    img: 'assets/Asset_Protection_Earn_Interest_Flyer.png',
+    desc: 'Real product brochure rendered from the PDF in `Advisors/Asset Protection Advisors/`, detailing fixed annuity interest accumulation.',
+    path: 'Advisors/Asset Protection Advisors/Guaranteed Interest Flyer/Asset Protection Advisors - Earn Interest Flyer (2023).pdf',
+    format: 'Adobe InDesign PDF / 200 DPI PNG Render',
+    usage: 'Client Point-of-Sale Handout'
+  },
+  'agent-folder-cws': {
+    title: 'Capital Wealth Solutions Presentation Folder',
+    category: 'Flyers & Folders',
+    img: 'assets/Capital_Wealth_Folder.png',
+    desc: 'Real die-cut print presentation folder design rendered from the PDF in `Advisors/Capital Wealth Solutions/Folder/`.',
+    path: 'Advisors/Capital Wealth Solutions/Folder/CWS-Folder-Print.pdf',
+    format: 'Die-Cut Print PDF / PNG Render',
+    usage: 'Client Onboarding & Proposal Packet'
+  },
   'agent-logo-ais': {
     title: 'Advanced Insurance Solutions Logo System',
-    category: 'Independent Agent Logo Design',
+    category: 'Logo Design',
     img: 'assets/Advanced-Insurance-Concepts-Logo-CMYK.png',
-    desc: 'Bespoke corporate identity and vector logo package crafted for Advanced Insurance Solutions, an independent agency providing life, annuities, and wealth protection.',
+    desc: 'Bespoke corporate identity and vector logo package crafted for Advanced Insurance Solutions, an independent agency providing life and health strategies.',
     path: 'Advisors/Advanced Insurance Solutions/Logo/Advanced-Insurance-Concepts-Logo-CMYK.png',
     format: 'CMYK PNG / Vector AI',
     usage: 'Agency Stationery & Print Branding'
   },
   'agent-logo-apa': {
     title: 'Asset Protection Advisors Identity Suite',
-    category: 'Independent Agent Logo Design',
+    category: 'Logo Design',
     img: 'assets/Asset Protection Advisors – Logo.png',
     desc: 'Custom crest mark and executive identity created for Asset Protection Advisors. Includes full color, monochrome, and inverse dark-background variants.',
     path: 'Advisors/Asset Protection Advisors/Logo/1x/Asset Protection Advisors – Logo.png',
     format: 'High-Res Transparent PNG',
     usage: 'Primary Agency Brand & Web'
-  },
-  'agent-flyer-apa': {
-    title: 'Asset Protection Advisors Interest Rate Flyer',
-    category: 'Flyers & Brochures',
-    img: 'assets/iStock-1269045922.jpg',
-    desc: 'Turnkey client-facing educational brochure designed for independent agents to explain fixed interest rates, principal protection, and annuity accumulation options.',
-    path: 'Advisors/Asset Protection Advisors/Guaranteed Interest Flyer/',
-    format: 'Adobe InDesign (.indd) / Print PDF',
-    usage: 'Client Point-of-Sale Handout'
-  },
-  'agent-folder-cws': {
-    title: 'Capital Wealth Solutions Presentation Folder',
-    category: 'Flyers & Brochures',
-    img: 'assets/Advanced-Planning-Icon.png',
-    desc: 'Custom die-cut pocket presentation folder designed for Independent Agent client proposals, policy delivery, and initial consultation packets.',
-    path: 'Advisors/Capital Wealth Solutions/Folder/CWS-Folder-Print.pdf',
-    format: 'Print PDF / Foil Die-Cut Spec',
-    usage: 'Client Onboarding & Proposal Packet'
   },
   'agent-social-401k': {
     title: '401(k) Distribution & Rollover Social Series',
@@ -110,15 +110,6 @@ const ASSET_DETAILS = {
     path: 'Simplicity/Instagram Posts/Kick the can - Social Post - 09.04.26.jpg',
     format: 'Instagram Square JPG',
     usage: 'Organic & Paid Social Feed'
-  },
-  'agent-social-carousel': {
-    title: 'Multi-Slide Financial Wellness Social Kit',
-    category: 'Social Posts',
-    img: 'assets/Simplicity - 401k Distribution Socials - 08.102.jpg',
-    desc: 'Sequential multi-slide carousel social asset designed to increase post swipe-through rates and drive appointment requests for independent insurance practices.',
-    path: 'Simplicity/Simplicity Group/Social Media Posts/2026 401k(s) Savings Goal Post/',
-    format: 'Multi-Slide Carousel JPG',
-    usage: 'Social Lead Generation'
   },
 
   // Figma UI/UX Showcase
