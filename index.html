@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ben Bipes | Personal Design Portfolio & Resume</title>
+  <title>Ben Bipes | Personal Design & UI Portfolio</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
   <!-- Navigation Bar -->
   <header class="navbar" id="navbar">
     <div class="nav-container">
-      <a href="index.html" class="brand-logo">
+      <a href="#" class="brand-logo">
         <div class="brand-text">
           <span class="brand-name">BEN BIPES</span>
           <span class="brand-sub">DESIGN & MARKETING PORTFOLIO</span>
@@ -24,9 +24,9 @@
         <a href="#hero">Overview</a>
         <a href="#about-ben">About Ben</a>
         <a href="#principles">Principles</a>
-        <a href="#portfolio">Corporate Showcase</a>
+        <a href="#portfolio">Corporate</a>
         <a href="#independent-agents">Independent Agents</a>
-        <a href="ui-design.html" class="nav-highlight">UI Design & Figma</a>
+        <a href="#ui-design" class="nav-highlight">UI Design & Figma</a>
       </nav>
       <div class="nav-actions">
         <a href="assets/Ben_Bipes_Resume.pdf" download="Ben_Bipes_Resume.pdf" class="btn btn-outline nav-resume-btn">
@@ -472,6 +472,144 @@
             <div class="card-tags">
               <span>Retirement Feed</span>
               <span>Agent Content</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INTEGRATED SECTION: UI Design & Figma Showcase -->
+  <section class="portfolio-section ui-section" id="ui-design">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag ui-tag">INTERFACE DESIGN & FIGMA</span>
+        <h2>UI/UX Design & Figma Prototypes</h2>
+        <p>Interactive web layouts, portal interface components, design systems, and responsive wireframes created for corporate portals, intranet systems, and agent web platforms.</p>
+      </div>
+
+      <!-- UI Category Filter Bar -->
+      <div class="filter-bar">
+        <button class="ui-filter-btn active" data-ui-filter="all">All UI Works</button>
+        <button class="ui-filter-btn" data-ui-filter="system">Design Systems</button>
+        <button class="ui-filter-btn" data-ui-filter="portal">Portals & SSO</button>
+        <button class="ui-filter-btn" data-ui-filter="components">Component Specs</button>
+      </div>
+
+      <!-- UI Portfolio Grid -->
+      <div class="portfolio-grid" id="ui-grid">
+
+        <!-- UI Item 1 -->
+        <article class="portfolio-card ui-card" data-ui-category="system" data-id="ui-home-collage">
+          <div class="card-media">
+            <img src="assets/Simplicity-Home-Page-Image-Collage.png" alt="Simplicity Homepage UI Design System">
+            <div class="media-overlay">
+              <button class="view-btn">View Full Piece</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-category ui-cat-tag">Design System</span>
+            <h3 class="card-title">Simplicity Master Web Homepage Collage</h3>
+            <p class="card-desc">Figma-crafted design system grid and homepage layout composition showcasing partner ecosystem assets.</p>
+            <div class="card-tags">
+              <span>Figma Web Grid</span>
+              <span>Design System</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- UI Item 2 -->
+        <article class="portfolio-card ui-card" data-ui-category="portal" data-id="ui-portal-sso">
+          <div class="card-media">
+            <img src="assets/Simplicity-Broker-Dealer-Step-3.png" alt="Agent Center SSO Dashboard">
+            <div class="media-overlay">
+              <button class="view-btn">View Full Piece</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-category ui-cat-tag">Portals & SSO</span>
+            <h3 class="card-title">Agent Resource Center SSO Interface</h3>
+            <p class="card-desc">User interface design for single-sign-on (SSO) advisor dashboard and resource center navigation.</p>
+            <div class="card-tags">
+              <span>SSO Dashboard</span>
+              <span>Portal UI</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- UI Item 3 -->
+        <article class="portfolio-card ui-card" data-ui-category="components" data-id="ui-step-cards">
+          <div class="card-media">
+            <img src="assets/Simplicity-Broker-Dealer-Step-1.png" alt="Process Workflow UI Component">
+            <div class="media-overlay">
+              <button class="view-btn">View Full Piece</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-category ui-cat-tag">Component Specs</span>
+            <h3 class="card-title">Sequential Process UI Cards</h3>
+            <p class="card-desc">Modular step-by-step process component library used across web onboarding flows and landing pages.</p>
+            <div class="card-tags">
+              <span>Component Library</span>
+              <span>Step Card UI</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- UI Item 4 -->
+        <article class="portfolio-card ui-card" data-ui-category="portal" data-id="ui-summit-dashboard">
+          <div class="card-media">
+            <img src="assets/Simplicity Group Holdings Summit Office.jpg" alt="Executive Portal Header">
+            <div class="media-overlay">
+              <button class="view-btn">View Full Piece</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-category ui-cat-tag">Portals & SSO</span>
+            <h3 class="card-title">Executive Summit Portal & Office Suite</h3>
+            <p class="card-desc">High-resolution hero header layout and imagery architecture for executive intranet applications.</p>
+            <div class="card-tags">
+              <span>Executive Intranet</span>
+              <span>Header Layout</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- UI Item 5 -->
+        <article class="portfolio-card ui-card" data-ui-category="components" data-id="ui-icon-system">
+          <div class="card-media">
+            <img src="assets/Advanced-Planning-Icon.png" alt="Advanced Planning Icon UI Component">
+            <div class="media-overlay">
+              <button class="view-btn">View Full Piece</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-category ui-cat-tag">Component Specs</span>
+            <h3 class="card-title">Advanced Markets UI Icon Set</h3>
+            <p class="card-desc">Vector UI icon component system designed for financial web applications, dashboards, and mobile views.</p>
+            <div class="card-tags">
+              <span>Vector Icons</span>
+              <span>SVG Component</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- UI Item 6 -->
+        <article class="portfolio-card ui-card" data-ui-category="system" data-id="ui-landing-system">
+          <div class="card-media">
+            <img src="assets/iStock-2148975941.jpg" alt="Executive Landing Page UI">
+            <div class="media-overlay">
+              <button class="view-btn">View Full Piece</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-category ui-cat-tag">Design System</span>
+            <h3 class="card-title">Executive Compensation Landing Page UI</h3>
+            <p class="card-desc">Responsive web layout design for high-converting B2B financial marketing and lead capture.</p>
+            <div class="card-tags">
+              <span>Landing Page</span>
+              <span>Lead Generation</span>
             </div>
           </div>
         </article>

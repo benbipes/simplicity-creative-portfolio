@@ -12,6 +12,8 @@
   --blue-100: #E6F0FA;
   --emerald-600: #059669;
   --emerald-100: #D1FAE5;
+  --purple-600: #7C3AED;
+  --purple-100: #EDE9FE;
   --gold-500: #D4AF37;
   --slate-600: #475569;
   --slate-400: #94A3B8;
@@ -467,6 +469,10 @@ h1, h2, h3, h4, .brand-name {
   color: var(--emerald-600);
 }
 
+.ui-tag {
+  color: var(--purple-600);
+}
+
 .section-header h2 {
   font-size: 2.4rem;
   font-weight: 800;
@@ -564,9 +570,9 @@ h1, h2, h3, h4, .brand-name {
 }
 
 .ui-filter-btn:hover, .ui-filter-btn.active {
-  background: var(--blue-600);
+  background: var(--purple-600);
   color: var(--white);
-  border-color: var(--blue-600);
+  border-color: var(--purple-600);
   box-shadow: var(--shadow-sm);
 }
 
@@ -678,6 +684,10 @@ h1, h2, h3, h4, .brand-name {
   color: var(--emerald-600);
 }
 
+.ui-cat-tag {
+  color: var(--purple-600);
+}
+
 .card-title {
   font-size: 1.25rem;
   margin-bottom: 0.6rem;
@@ -709,6 +719,12 @@ h1, h2, h3, h4, .brand-name {
 /* Independent Agent Section background */
 .agent-section {
   background: linear-gradient(180deg, #F1F5F9 0%, #E2E8F0 100%);
+  border-top: 1px solid var(--slate-100);
+}
+
+/* UI Section background */
+.ui-section {
+  background: var(--white);
   border-top: 1px solid var(--slate-100);
 }
 
