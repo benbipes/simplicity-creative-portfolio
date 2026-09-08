@@ -63,6 +63,30 @@ const ASSET_DETAILS = {
     img: 'assets/Asset Protection Advisors – Logo.png',
     desc: 'Custom crest mark and executive identity created for Asset Protection Advisors.'
   },
+  'agent-logo-zentra': {
+    title: 'ZentraWealth Corporate Identity System',
+    category: 'Logo Design',
+    img: 'assets/ZentraWealth-Horizontal-Logo-Blue.png',
+    desc: 'Corporate vector identity system and horizontal logo design created for ZentraWealth financial advisors.'
+  },
+  'agent-logo-tfp': {
+    title: 'True Financial Partners Logo Suite',
+    category: 'Logo Design',
+    img: 'assets/True-Financial-Partners-Logo.png',
+    desc: 'Modern corporate brand mark and vector logo package created for True Financial Partners.'
+  },
+  'agent-logo-summit': {
+    title: 'Summit Group Wealth Advisors Logo Mark',
+    category: 'Logo Design',
+    img: 'assets/Summit-Group-Wealth-Advisors-Logo.png',
+    desc: 'Executive identity mark and wordmark designed for Summit Group Wealth Advisors.'
+  },
+  'agent-logo-thoroughbred': {
+    title: 'Thoroughbred Financial Group Vector Logo',
+    category: 'Logo Design',
+    img: 'assets/Thoroughbred-Financial-Group-Logo.png',
+    desc: 'Custom crest emblem and vector logo system designed for Thoroughbred Financial Group.'
+  },
   'agent-social-401k': {
     title: '401(k) Distribution & Rollover Social Series',
     category: 'Social Posts',
