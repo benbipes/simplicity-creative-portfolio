@@ -83,7 +83,7 @@
           <div class="card-media">
             <img src="assets/Simplicity-Home-Page-Image-Collage.png" alt="Simplicity Homepage UI Design System">
             <div class="media-overlay">
-              <button class="view-btn">Inspect UI Spec</button>
+              <button class="view-btn">View Full Piece</button>
             </div>
           </div>
           <div class="card-body">
@@ -93,7 +93,6 @@
             <div class="card-tags">
               <span>Figma Web Grid</span>
               <span>Design System</span>
-              <span>Hero Composition</span>
             </div>
           </div>
         </article>
@@ -103,7 +102,7 @@
           <div class="card-media">
             <img src="assets/Simplicity-Broker-Dealer-Step-3.png" alt="Agent Center SSO Dashboard">
             <div class="media-overlay">
-              <button class="view-btn">Inspect UI Spec</button>
+              <button class="view-btn">View Full Piece</button>
             </div>
           </div>
           <div class="card-body">
@@ -113,7 +112,6 @@
             <div class="card-tags">
               <span>SSO Dashboard</span>
               <span>Portal UI</span>
-              <span>Advisor Portal</span>
             </div>
           </div>
         </article>
@@ -123,7 +121,7 @@
           <div class="card-media">
             <img src="assets/Simplicity-Broker-Dealer-Step-1.png" alt="Process Workflow UI Component">
             <div class="media-overlay">
-              <button class="view-btn">Inspect UI Spec</button>
+              <button class="view-btn">View Full Piece</button>
             </div>
           </div>
           <div class="card-body">
@@ -133,7 +131,6 @@
             <div class="card-tags">
               <span>Component Library</span>
               <span>Step Card UI</span>
-              <span>Interactive Workflow</span>
             </div>
           </div>
         </article>
@@ -143,7 +140,7 @@
           <div class="card-media">
             <img src="assets/Simplicity Group Holdings Summit Office.jpg" alt="Executive Portal Header">
             <div class="media-overlay">
-              <button class="view-btn">Inspect UI Spec</button>
+              <button class="view-btn">View Full Piece</button>
             </div>
           </div>
           <div class="card-body">
@@ -153,7 +150,6 @@
             <div class="card-tags">
               <span>Executive Intranet</span>
               <span>Header Layout</span>
-              <span>Corporate Portal</span>
             </div>
           </div>
         </article>
@@ -163,7 +159,7 @@
           <div class="card-media">
             <img src="assets/Advanced-Planning-Icon.png" alt="Advanced Planning Icon UI Component">
             <div class="media-overlay">
-              <button class="view-btn">Inspect UI Spec</button>
+              <button class="view-btn">View Full Piece</button>
             </div>
           </div>
           <div class="card-body">
@@ -173,7 +169,6 @@
             <div class="card-tags">
               <span>Vector Icons</span>
               <span>SVG Component</span>
-              <span>UI Assets</span>
             </div>
           </div>
         </article>
@@ -183,7 +178,7 @@
           <div class="card-media">
             <img src="assets/iStock-2148975941.jpg" alt="Executive Landing Page UI">
             <div class="media-overlay">
-              <button class="view-btn">Inspect UI Spec</button>
+              <button class="view-btn">View Full Piece</button>
             </div>
           </div>
           <div class="card-body">
@@ -193,7 +188,6 @@
             <div class="card-tags">
               <span>Landing Page</span>
               <span>Lead Generation</span>
-              <span>Responsive Web</span>
             </div>
           </div>
         </article>
@@ -233,38 +227,22 @@
     </div>
   </section>
 
-  <!-- Detail Modal Lightbox -->
+  <!-- Full Piece Preview Lightbox Modal (Clean Full Preview, No Metadata Box) -->
   <dialog class="asset-modal" id="asset-modal">
     <div class="modal-content">
       <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
-      <div class="modal-grid">
-        <div class="modal-media">
-          <img id="modal-img" src="" alt="UI Detail Spec">
-        </div>
-        <div class="modal-info">
-          <span class="modal-category" id="modal-category">Category</span>
-          <h3 id="modal-title">Asset Title</h3>
-          <p id="modal-desc">Detailed explanation of the UI design component and system specs.</p>
+      <div class="modal-preview-header">
+        <span class="modal-category" id="modal-category">Category</span>
+        <h3 id="modal-title">Asset Title</h3>
+        <p id="modal-desc">Description</p>
+      </div>
 
-          <div class="modal-metadata">
-            <div class="meta-row">
-              <span class="meta-key">Figma / Source File:</span>
-              <span class="meta-val" id="modal-path">Simplicity/Web/_assets/</span>
-            </div>
-            <div class="meta-row">
-              <span class="meta-key">UI Format:</span>
-              <span class="meta-val" id="modal-format">Figma Canvas / Web Asset</span>
-            </div>
-            <div class="meta-row">
-              <span class="meta-key">Usage Context:</span>
-              <span class="meta-val" id="modal-usage">Responsive Web / Intranet UI</span>
-            </div>
-          </div>
+      <div class="modal-full-media">
+        <img id="modal-img" src="" alt="Full Piece Preview">
+      </div>
 
-          <div class="modal-actions">
-            <button class="btn btn-primary" id="modal-close-btn">Close Inspector</button>
-          </div>
-        </div>
+      <div class="modal-preview-footer">
+        <button class="btn btn-primary" id="modal-close-btn">Close Full Preview</button>
       </div>
     </div>
   </dialog>
