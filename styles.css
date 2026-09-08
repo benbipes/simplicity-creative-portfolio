@@ -545,7 +545,7 @@ h1, h2, h3, h4, .brand-name {
   margin-bottom: 3rem;
 }
 
-.filter-btn, .agent-filter-btn {
+.filter-btn, .agent-filter-btn, .ui-filter-btn {
   padding: 0.6rem 1.25rem;
   border-radius: 50px;
   background: var(--white);
@@ -568,6 +568,13 @@ h1, h2, h3, h4, .brand-name {
   background: var(--emerald-600);
   color: var(--white);
   border-color: var(--emerald-600);
+  box-shadow: var(--shadow-sm);
+}
+
+.ui-filter-btn:hover, .ui-filter-btn.active {
+  background: var(--blue-600);
+  color: var(--white);
+  border-color: var(--blue-600);
   box-shadow: var(--shadow-sm);
 }
 
@@ -723,7 +730,7 @@ h1, h2, h3, h4, .brand-name {
   width: 90%;
   background: var(--white);
   box-shadow: var(--shadow-lg);
- overflow: hidden;
+  overflow: hidden;
 }
 
 .asset-modal::backdrop {

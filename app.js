@@ -1,4 +1,4 @@
-// Asset Database details for modal inspection
+// Asset Database details for modal inspection across pages
 const ASSET_DETAILS = {
   // Corporate Showcase
   'brand-logo': {
@@ -119,16 +119,77 @@ const ASSET_DETAILS = {
     path: 'Simplicity/Simplicity Group/Social Media Posts/2026 401k(s) Savings Goal Post/',
     format: 'Multi-Slide Carousel JPG',
     usage: 'Social Lead Generation'
+  },
+
+  // Figma UI/UX Showcase
+  'ui-home-collage': {
+    title: 'Simplicity Master Web Homepage Collage',
+    category: 'Design System',
+    img: 'assets/Simplicity-Home-Page-Image-Collage.png',
+    desc: 'Figma-crafted design system grid and homepage layout composition showcasing partner ecosystem assets, brand silos, and hero section components.',
+    path: 'Simplicity/Web/_assets/Simplicity Home Page Image Collage.ai',
+    format: 'Figma Canvas Artboard / 4K PNG',
+    usage: 'Master Corporate Website & Brand Grid'
+  },
+  'ui-portal-sso': {
+    title: 'Agent Resource Center SSO Interface',
+    category: 'Portals & SSO',
+    img: 'assets/Simplicity-Broker-Dealer-Step-3.png',
+    desc: 'User interface design for single-sign-on (SSO) advisor dashboard and resource center navigation layout.',
+    path: 'Simplicity/Web/Simplicity Partners Resource Center/',
+    format: 'Figma Component System / SVG Icons',
+    usage: 'Single Sign-On Agent Portal'
+  },
+  'ui-step-cards': {
+    title: 'Sequential Process UI Cards Component',
+    category: 'Component Specs',
+    img: 'assets/Simplicity-Broker-Dealer-Step-1.png',
+    desc: 'Modular step-by-step process component library used across web onboarding flows and landing pages.',
+    path: 'Simplicity/Simplicity Group/Website Graphics/Graphics/',
+    format: 'Figma Auto-Layout Component',
+    usage: 'Advisor Onboarding UI Flow'
+  },
+  'ui-summit-dashboard': {
+    title: 'Executive Summit Portal & Office Header',
+    category: 'Portals & SSO',
+    img: 'assets/Simplicity Group Holdings Summit Office.jpg',
+    desc: 'High-resolution hero header layout and imagery architecture for executive intranet applications.',
+    path: 'Simplicity/Web/_assets/Simplicity Group Holdings Summit Office.jpg',
+    format: 'Figma Layout / Web Banner',
+    usage: 'Executive Intranet Dashboard'
+  },
+  'ui-icon-system': {
+    title: 'Advanced Markets UI Icon Set Component',
+    category: 'Component Specs',
+    img: 'assets/Advanced-Planning-Icon.png',
+    desc: 'Vector UI icon component system designed for financial web applications, dashboards, and mobile views.',
+    path: 'Simplicity/Simplicity Group/Website Graphics/Graphics/Advanced-Planning-Icon.png',
+    format: 'Vector SVG Component',
+    usage: 'Financial Web App UI'
+  },
+  'ui-landing-system': {
+    title: 'Executive Compensation Landing Page UI',
+    category: 'Design System',
+    img: 'assets/iStock-2148975941.jpg',
+    desc: 'Responsive web layout design for high-converting B2B financial marketing and lead capture.',
+    path: 'Simplicity/Simplicity Group/Landing Pages/',
+    format: 'Figma Web Artboard',
+    usage: 'B2B Executive Campaign Landing Page'
   }
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Elements
+  // Corporate Showcase elements
   const corpFilterBtns = document.querySelectorAll('.filter-btn');
   const corpCards = document.querySelectorAll('#portfolio-grid .portfolio-card');
 
+  // Agent Showcase elements
   const agentFilterBtns = document.querySelectorAll('.agent-filter-btn');
   const agentCards = document.querySelectorAll('#agent-grid .agent-card');
+
+  // UI Showcase elements
+  const uiFilterBtns = document.querySelectorAll('.ui-filter-btn');
+  const uiCards = document.querySelectorAll('#ui-grid .ui-card');
 
   const modal = document.getElementById('asset-modal');
   const modalClose = document.getElementById('modal-close');
@@ -185,7 +246,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Modal Inspect functionality (for both corporate & agent cards)
+  // UI Filter functionality
+  uiFilterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      uiFilterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filterValue = btn.getAttribute('data-ui-filter');
+
+      uiCards.forEach(card => {
+        const category = card.getAttribute('data-ui-category');
+        if (filterValue === 'all' || filterValue === category) {
+          card.style.display = 'flex';
+          card.style.opacity = '1';
+        } else {
+          card.style.display = 'none';
+          card.style.opacity = '0';
+        }
+      });
+    });
+  });
+
+  // Modal Inspect functionality (for all cards)
   const allCards = document.querySelectorAll('.portfolio-card');
   allCards.forEach(card => {
     const inspectBtn = card.querySelector('.view-btn');
