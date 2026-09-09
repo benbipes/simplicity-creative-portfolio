@@ -544,38 +544,38 @@ const ASSET_DETAILS = {
   'ui-home-collage': {
     title: 'Simplicity Master Web Homepage Collage',
     category: 'Design System',
-    img: 'assets/Simplicity-Home-Page-Image-Collage.png',
+    img: 'assets/ui_unique/ui-home-collage.png',
     desc: 'Figma-crafted design system grid and homepage layout composition showcasing partner ecosystem assets, brand silos, and hero section components.'
   },
   'ui-portal-sso': {
     title: 'Agent Resource Center SSO Interface',
     category: 'Portals & SSO',
-    img: 'assets/Simplicity-Broker-Dealer-Step-3.png',
+    img: 'assets/ui_unique/ui-portal-sso.png',
     desc: 'User interface design for single-sign-on (SSO) advisor dashboard and resource center navigation layout.'
   },
   'ui-step-cards': {
     title: 'Sequential Process UI Cards Component',
     category: 'Component Specs',
-    img: 'assets/Simplicity-Broker-Dealer-Step-1.png',
+    img: 'assets/ui_unique/ui-step-cards.png',
     desc: 'Modular step-by-step process component library used across web onboarding flows and landing pages.'
   },
   'ui-summit-dashboard': {
-    title: 'Executive Summit Portal & Office Header',
+    title: 'AssetLock Real-Time Portfolio Monitoring UI',
     category: 'Portals & SSO',
-    img: 'assets/Simplicity Group Holdings Summit Office.jpg',
-    desc: 'High-resolution hero header layout and imagery architecture for executive intranet applications.'
+    img: 'assets/ui_unique/ui-summit-dashboard.png',
+    desc: 'Interactive dashboard user interface designed for advisors and clients to monitor real-time portfolio thresholds, account balances, and security alerts.'
   },
   'ui-icon-system': {
-    title: 'Advanced Markets UI Icon Set Component',
+    title: 'Advanced Markets UI Icon Component System',
     category: 'Component Specs',
-    img: 'assets/Advanced-Planning-Icon.png',
+    img: 'assets/ui_unique/ui-icon-system.png',
     desc: 'Vector UI icon component system designed for financial web applications, dashboards, and mobile views.'
   },
   'ui-landing-system': {
-    title: 'Executive Compensation Landing Page UI',
+    title: 'Jenkins Financial Advisor Web Layout UI',
     category: 'Design System',
-    img: 'assets/iStock-2148975941.jpg',
-    desc: 'Responsive web layout design for high-converting B2B financial marketing and lead capture.'
+    img: 'assets/ui_unique/ui-landing-system.png',
+    desc: 'Responsive web interface design for high-converting financial advisor marketing, services overview, and lead capture.'
   }
 };
 
