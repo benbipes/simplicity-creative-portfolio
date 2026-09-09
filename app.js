@@ -1,59 +1,59 @@
 // Asset Database details for modal inspection across pages
 const ASSET_DETAILS = {
-// Corporate B2B Channel Work Showcase (45 Items: Life, Annuity, LTC, Disability, Wealth)
+// Corporate B2B Channel Work Showcase (45 Unique Items)
   'life-1': {
+    title: "Estate Planning & Wealth Preservation Guide",
+    category: "Life Insurance",
+    img: "assets/National_Accounts_Bio_Sheet.png",
+    desc: "Simplicity Advanced Markets estate planning brochure detailing trust liquidity and wealth preservation."
+  },
+  'life-2': {
+    title: "Intergenerational Split-Dollar (IGSD) Strategy Sheet",
+    category: "Life Insurance",
+    img: "assets/Asset_Protection_Earn_Interest_Flyer.png",
+    desc: "Wealth transfer brochure illustrating intergenerational split-dollar life insurance structures."
+  },
+  'life-3': {
+    title: "Summary of Key Tax Provisions & Life Insurance",
+    category: "Life Insurance",
+    img: "assets/Cash_Balance_Plan_Flyer.png",
+    desc: "Advanced sales collateral summarizing key tax law provisions and life insurance policy benefits."
+  },
+  'life-4': {
     title: "Seven Creative Principles Brand Book",
     category: "Life Insurance",
     img: "assets/Seven_Principles_Cover.png",
-    desc: "Brand strategy book and visual standards guide for life insurance marketing and collateral."
-  },
-  'life-2': {
-    title: "Universal Life Accumulation Rate Matrix",
-    category: "Life Insurance",
-    img: "assets/Asset_Protection_Earn_Interest_Flyer.png",
-    desc: "Guaranteed interest rate schedules and cash value growth matrix for universal life policies."
-  },
-  'life-3': {
-    title: "Index Universal Life (IUL) Growth Solution",
-    category: "Life Insurance",
-    img: "assets/Partnership_Flyer.png",
-    desc: "IUL cap rates, participation rates, and death benefit accumulation client flyer."
-  },
-  'life-4': {
-    title: "Term vs. Permanent Life Comparison Chart",
-    category: "Life Insurance",
-    img: "assets/Simplicity-Broker-Dealer-Step-1.png",
-    desc: "Side-by-side product comparison visual chart engineered for advisor client consultations."
+    desc: "Official brand standards guide and visual methodology handbook for life insurance marketing."
   },
   'life-5': {
-    title: "Key Person Executive Life Insurance Flyer",
+    title: "Index Universal Life (IUL) Accumulation Flyer",
     category: "Life Insurance",
-    img: "assets/Simplicity-Broker-Dealer-Step-2.png",
-    desc: "Corporate key employee indemnification and executive retention life insurance flyer."
+    img: "assets/Partnership_Flyer.png",
+    desc: "IUL cap rates, participation rates, and cash value accumulation brochure for field producers."
   },
   'life-6': {
-    title: "Estate Planning & Life Wealth Transfer Sheet",
+    title: "Key Person Executive Life Insurance Solution",
     category: "Life Insurance",
-    img: "assets/National_Accounts_Bio_Sheet.png",
-    desc: "Generational wealth transfer and estate tax liquidity strategy guide for high-net-worth clients."
+    img: "assets/Simplicity-Broker-Dealer-Step-2.png",
+    desc: "Corporate key employee indemnification and executive retention life insurance collateral."
   },
   'life-7': {
-    title: "Executive Life Bonus Compensation Plan",
+    title: "Section 162 Executive Bonus Plan Presentation",
     category: "Life Insurance",
     img: "assets/iStock-2148975941.jpg",
-    desc: "Section 162 executive bonus plan collateral for corporate leadership and key executives."
+    desc: "Executive bonus plan collateral designed for business owners and C-suite executives."
   },
   'life-8': {
-    title: "Life Underwriting Pathways & Field Guide",
+    title: "Life Underwriting Field Guide & Impaired Risk Pathways",
     category: "Life Insurance",
     img: "assets/Simplicity-Broker-Dealer-Step-3.png",
-    desc: "Impaired risk navigation and expedited underwriting flowcharts for independent life agents."
+    desc: "Underwriting flowchart mapping expedited approval pathways for independent agents."
   },
   'life-9': {
-    title: "Survivorship & Legacy Life One-Pager",
+    title: "Survivorship & Legacy Wealth Life One-Pager",
     category: "Life Insurance",
     img: "assets/Simplicity-Broker-Dealer-Step-4.png",
-    desc: "Second-to-die survivorship life insurance solution sheet for trust funding and estate planning."
+    desc: "Second-to-die survivorship life insurance solution sheet for trust funding."
   },
   'annuity-1': {
     title: "Puritan Life Interest Plus Annuity vs. FIA vs. MYGA",
@@ -110,31 +110,31 @@ const ASSET_DETAILS = {
     desc: "Educational guide empowering pre-retirees to convert tax-deferred savings into guaranteed annuity streams."
   },
   'ltc-1': {
-    title: "Simplicity LTC Road Show One-Pager",
+    title: "2025 Simplicity LTC Road Show Presentation",
     category: "Asset-Based LTC",
     img: "assets/National_Accounts_Bio_Sheet.png",
     desc: "Nationwide roadshow collateral and advisor presentation deck for asset-based long-term care solutions."
   },
   'ltc-2': {
-    title: "AssetLock Investor Care Protection Brochure",
+    title: "AssetLock Investor Care Protection Overview",
     category: "Asset-Based LTC",
     img: "assets/Protect_Your_Paycheck_Infographic.png",
     desc: "Asset-based long-term care investor overview detailing asset preservation and tax-free care benefits."
   },
   'ltc-3': {
-    title: "Hybrid Asset-Based LTC Solution Sheet",
+    title: "Unlocking Tax-Free Dollars for Long-Term Care",
     category: "Asset-Based LTC",
     img: "assets/Asset_Protection_Earn_Interest_Flyer.png",
-    desc: "Life/LTC hybrid combination product overview detailing return-of-premium features and pool of care benefits."
+    desc: "Consumer planning guide illustrating IRC Section 1035 exchanges into tax-free asset-based LTC policies."
   },
   'ltc-4': {
-    title: "Long-Term Care Planning & Asset Protection Guide",
+    title: "Hybrid Asset-Based LTC Solution Sheet",
     category: "Asset-Based LTC",
     img: "assets/Seven_Principles_Cover.png",
-    desc: "Comprehensive consumer planning guide covering nursing home, home health, and assisted living care funding."
+    desc: "Life/LTC hybrid combination product overview detailing return-of-premium features and pool of care benefits."
   },
   'ltc-5': {
-    title: "LTC Advisor Enablement & Webinar Series",
+    title: "Sub-IMO Long-Term Care Recruiting Webinar",
     category: "Asset-Based LTC",
     img: "assets/Simplicity Group Holdings Summit Office.jpg",
     desc: "Sub-IMO training and client presentation webinar graphics for asset-based LTC specialists."
@@ -170,106 +170,106 @@ const ASSET_DETAILS = {
     desc: "Disability insurance and paycheck protection visual infographic engineered for client consultations."
   },
   'disability-2': {
-    title: "Income Protection Disability Solution Sheet",
+    title: "Simplicity DI Policy Definitions by Carrier Guide",
     category: "Disability Insurance",
     img: "assets/Partnership_Flyer.png",
-    desc: "Individual disability income solution sheet showing benefit replacement ratios and own-occupation terms."
+    desc: "Carrier policy definition guide comparing own-occupation, residual disability, and COLA riders."
   },
   'disability-3': {
-    title: "Disability Missing Link Advisor Presentation",
+    title: "Individual Disability Issue & Participation (I&P) Limits",
     category: "Disability Insurance",
     img: "assets/Sales_Training_Case_Study.png",
-    desc: "Sales enablement campaign deck educating financial advisors on closing the income protection gap."
+    desc: "Carrier issue and participation limit matrix for medical professionals and high-income earners."
   },
   'disability-4': {
-    title: "Business Overhead Expense Disability Flyer",
+    title: "Disability Insurance Consumer Buy-Sell Flyer",
     category: "Disability Insurance",
     img: "assets/Cash_Balance_Plan_Flyer.png",
-    desc: "Business overhead expense (BOE) disability flyer protecting small business owners during medical leave."
+    desc: "Business buy-sell disability funding brochure protecting business partner equity during disability."
   },
   'disability-5': {
-    title: "Executive Paycheck Protection Strategy Sheet",
-    category: "Disability Insurance",
-    img: "assets/iStock-2148975941.jpg",
-    desc: "High-limit supplemental disability coverage strategy sheet for C-suite executives and physician groups."
-  },
-  'disability-6': {
-    title: "Individual Disability Rate & Coverage Guide",
+    title: "Business Overhead Expense (BOE) Disability Flyer",
     category: "Disability Insurance",
     img: "assets/Asset_Protection_Earn_Interest_Flyer.png",
-    desc: "Comprehensive occupation class rate guide and policy rider handbook for disability specialists."
+    desc: "Business overhead expense disability flyer protecting small business operating expenses during medical leave."
+  },
+  'disability-6': {
+    title: "Disability Educational Consumer Guide",
+    category: "Disability Insurance",
+    img: "assets/Seven_Principles_Cover.png",
+    desc: "Educational consumer guide explaining income replacement ratios and total disability qualifications."
   },
   'disability-7': {
-    title: "Key Employee Disability Income Protection",
+    title: "Disability Protect Income Campaign Graphics",
     category: "Disability Insurance",
-    img: "assets/National_Accounts_Bio_Sheet.png",
-    desc: "Corporate disability insurance policy designed to cover revenue-producing key employees during disability."
+    img: "assets/Simplicity Group Holdings Summit Office.jpg",
+    desc: "Turnkey digital marketing campaign empowering agents to lead paycheck protection conversations."
   },
   'disability-8': {
-    title: "Disability Insurance Claim & Benefit Overview",
+    title: "Disability Missing Link Advisor Presentation",
     category: "Disability Insurance",
     img: "assets/Simplicity-Broker-Dealer-Step-2.png",
-    desc: "Client-facing brochure explaining elimination periods, benefit periods, and presumptive disability clauses."
+    desc: "Advisor presentation deck highlighting the income protection gap in retirement planning."
   },
   'disability-9': {
-    title: "Group vs. Individual Disability Comparison Sheet",
+    title: "Group LTD vs. Individual DI Comparison Sheet",
     category: "Disability Insurance",
     img: "assets/Simplicity-Broker-Dealer-Step-4.png",
     desc: "Educational flyer highlighting taxability, portability, and coverage limits between group LTD and IDI."
   },
   'wealth-1': {
+    title: "Redefining Risk Tolerance White Paper",
+    category: "Wealth & Securities",
+    img: "assets/iStock-1269045922.jpg",
+    desc: "Simplicity Wealth institutional white paper detailing risk tolerance measurement and VaR continua diagrams."
+  },
+  'wealth-2': {
+    title: "DOL Fiduciary Rule & Compliance Disclosure Form",
+    category: "Wealth & Securities",
+    img: "assets/National_Accounts_Bio_Sheet.png",
+    desc: "DOL fiduciary rule compliance form and best interest disclosure documentation for RIA advisors."
+  },
+  'wealth-3': {
+    title: "Capital Market Assumptions & Parametric VaR Continua",
+    category: "Wealth & Securities",
+    img: "assets/Simplicity-Broker-Dealer-Step-1.png",
+    desc: "Investment advisory chart mapping capital market assumptions, fat-tailed distributions, and VaR models."
+  },
+  'wealth-4': {
+    title: "90% Rational Outcomes Confidence Range Diagram",
+    category: "Wealth & Securities",
+    img: "assets/Simplicity-Broker-Dealer-Step-3.png",
+    desc: "Quantitative diagram illustrating portfolio return probabilities and rational outcome confidence ranges."
+  },
+  'wealth-5': {
     title: "Cash Balance Plan Financial Solution Sheet",
     category: "Wealth & Securities",
     img: "assets/Cash_Balance_Plan_Flyer.png",
     desc: "Advanced planning financial flyer designed for business owners, medical practices, and high-earning partners."
   },
-  'wealth-2': {
+  'wealth-6': {
     title: "Simplicity Sales Training Case Study",
     category: "Wealth & Securities",
     img: "assets/Sales_Training_Case_Study.png",
     desc: "In-depth sales training case study collateral detailing advisor performance results and wealth management workflows."
   },
-  'wealth-3': {
+  'wealth-7': {
     title: "The Partnership You Need To Grow Recruiting Flyer",
     category: "Wealth & Securities",
     img: "assets/Partnership_Flyer.png",
     desc: "Executive business growth flyer created for Simplicity advisor recruitment and RIA scaling programs."
   },
-  'wealth-4': {
-    title: "National Accounts & POS Leadership Bio Sheet",
-    category: "Wealth & Securities",
-    img: "assets/National_Accounts_Bio_Sheet.png",
-    desc: "Corporate brand template and point-of-sale sheet for Simplicity National Accounts and institutional wealth relationships."
-  },
-  'wealth-5': {
-    title: "Simplicity Commonwealth Advisor Workflow",
-    category: "Wealth & Securities",
-    img: "assets/Simplicity-Broker-Dealer-Step-1.png",
-    desc: "Operations flowchart mapping securities clearing, custodial integration, and wealth management platform services."
-  },
-  'wealth-6': {
-    title: "RIA Investment Advisory & Broker-Dealer Portal",
-    category: "Wealth & Securities",
-    img: "assets/Simplicity-Broker-Dealer-Step-3.png",
-    desc: "User interface layout design for single-sign-on (SSO) advisor dashboard and broker-dealer resource center."
-  },
-  'wealth-7': {
+  'wealth-8': {
     title: "Executive Compensation Landing Page UI",
     category: "Wealth & Securities",
     img: "assets/iStock-2148975941.jpg",
     desc: "Responsive web layout design for high-converting B2B wealth management marketing and lead capture."
   },
-  'wealth-8': {
-    title: "401(k) Rollover & Tax-Optimized Transition Guide",
+  'wealth-9': {
+    title: "Account Management Policies & Procedures Disclosure",
     category: "Wealth & Securities",
     img: "assets/Simplicity - 401k Distribution Socials - 08.10.jpg",
-    desc: "Tax-optimized wealth transition brochure empowering independent advisors to guide rollover clients."
-  },
-  'wealth-9': {
-    title: "Wealth Risk Management & Planning Matrix",
-    category: "Wealth & Securities",
-    img: "assets/iStock-1269045922.jpg",
-    desc: "Comprehensive portfolio asset allocation and risk hedging matrix for high-net-worth wealth advisors."
+    desc: "Regulatory disclosure document outlining Simplicity Wealth account management and custodial policies."
   },
 
   // Independent Agent Real Work Showcase
