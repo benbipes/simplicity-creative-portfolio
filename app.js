@@ -273,6 +273,128 @@ const ASSET_DETAILS = {
   },
 
   // Independent Agent Real Work Showcase
+// A-Z Independent Advisor Logo Showcase (20 Samples: Navy, Gold, Green, Grey)
+  'az-a-asset-protection': {
+    title: "Asset Protection Advisors Identity",
+    category: 'Logo Design',
+    img: "assets/Asset Protection Advisors \u2013 Logo.png",
+    desc: "Shield crest emblem and executive typography designed for Asset Protection Advisors."
+  },
+  'az-b-breakthrough': {
+    title: "Breakthrough Financial Group Logo",
+    category: 'Logo Design',
+    img: "assets/ZentraWealth-Horizontal-Logo-Blue.png",
+    desc: "Corporate vector logo and brand identity designed for Breakthrough Financial Group."
+  },
+  'az-c-capital-wealth': {
+    title: "Capital Wealth Solutions Brand Mark",
+    category: 'Logo Design',
+    img: "assets/Capital_Wealth_Folder.png",
+    desc: "Bespoke corporate identity and crest mark designed for Capital Wealth Solutions."
+  },
+  'az-d-douglas-neibloom': {
+    title: "Douglas Neibloom Financial Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-d-douglas-neibloom.png",
+    desc: "Corporate logo and financial brand mark designed for Douglas Neibloom Financial."
+  },
+  'az-e-advanced-concepts': {
+    title: "Advanced Insurance Concepts Logo",
+    category: 'Logo Design',
+    img: "assets/Advanced-Insurance-Concepts-Logo-CMYK.png",
+    desc: "CMYK vector logo and brand identity system created for Advanced Insurance Concepts."
+  },
+  'az-f-first-financial': {
+    title: "First Financial Group Logo Suite",
+    category: 'Logo Design',
+    img: "assets/True-Financial-Partners-Logo.png",
+    desc: "Modern vector brand mark and identity system created for First Financial Group."
+  },
+  'az-g-gerber-financial': {
+    title: "Gerber Financial Management Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-g-gerber-financial.png",
+    desc: "Executive logo design and corporate mark for Gerber Financial Management."
+  },
+  'az-h-hurt-associates': {
+    title: "Hurt & Associates Financial Services",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-h-hurt-associates.png",
+    desc: "Vector icon redraw and corporate identity for Hurt & Associates Financial Services."
+  },
+  'az-i-insurance-retirement': {
+    title: "Insurance & Retirement Planning Services",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-i-insurance-retirement.png",
+    desc: "CMYK corporate logo and brand mark created for Insurance & Retirement Planning Services."
+  },
+  'az-j-jones-group': {
+    title: "Jones Group Horizontal Brand Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-j-jones-group.png",
+    desc: "Horizontal corporate logo layout designed for Jones Group."
+  },
+  'az-k-kawasaki-finance': {
+    title: "Kawasaki Finance & Income Services",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-k-kawasaki-finance.png",
+    desc: "Corporate logo design options created for Kawasaki Finance & Income Services."
+  },
+  'az-l-legacy-tree': {
+    title: "Legacy Tree Financial Group Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-l-legacy-tree.png",
+    desc: "Stacked CMYK tree emblem logo designed for Legacy Tree Financial Group."
+  },
+  'az-m-midwest-advisors': {
+    title: "Midwest Advisors Shield Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-m-midwest-advisors.png",
+    desc: "Shield mark and corporate typography system designed for Midwest Advisors."
+  },
+  'az-n-northstead': {
+    title: "Northstead Wealth Vector Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-n-northstead.png",
+    desc: "Corporate identity options and brand mark designed for Northstead Wealth."
+  },
+  'az-p-protected-retirement': {
+    title: "Protected Retirement Savings Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-p-protected-retirement.png",
+    desc: "Vector SVG shield emblem designed for Protected Retirement Savings."
+  },
+  'az-r-roberts-funai': {
+    title: "Roberts-Funai Insurance Agency Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-r-roberts-funai.png",
+    desc: "Horizontal CMYK corporate logo designed for Roberts-Funai Insurance Agency."
+  },
+  'az-s-strategic-wealth': {
+    title: "Strategic Wealth Designs Crest Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-s-strategic-wealth.png",
+    desc: "Executive crest emblem and logo system designed for Strategic Wealth Designs."
+  },
+  'az-t-tradewell': {
+    title: "TradeWell Tax & Financial Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-t-tradewell.png",
+    desc: "Horizontal white-out vector logo designed for TradeWell Tax & Financial."
+  },
+  'az-w-wealth-coverage': {
+    title: "Wealth Coverage Advisors Logo",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-w-wealth-coverage.png",
+    desc: "CMYK vector logo and brand identity created for Wealth Coverage Advisors."
+  },
+  'az-z-zentrawealth': {
+    title: "ZentraWealth Gold Corporate Identity",
+    category: 'Logo Design',
+    img: "assets/az_logos/az-z-zentrawealth.png",
+    desc: "Horizontal gold vector logo and brand identity system created for ZentraWealth."
+  },
+
   'agent-flyer-apa': {
     title: 'Asset Protection Advisors Interest Rate Flyer',
     category: 'Flyers & Folders',
