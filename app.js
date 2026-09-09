@@ -4,271 +4,271 @@ const ASSET_DETAILS = {
   'life-1': {
     title: "Reallocating Tax-Inefficient Retirement Assets",
     category: "Life Insurance",
-    img: "assets/rendered_covers/life-1.png",
+    img: "assets/b2b_unique/life-1.png",
     desc: "Advanced Markets strategy guide on optimizing retirement plan asset tax efficiency."
   },
   'life-2': {
     title: "Executive Sales Training Mailer (April 2026)",
     category: "Life Insurance",
-    img: "assets/rendered_covers/life-2.png",
+    img: "assets/b2b_unique/life-2.png",
     desc: "Executive mailer collateral designed for Simplicity Advanced Sales Training producers."
   },
   'life-3': {
     title: "Advanced Markets Estate Planning Brochure",
     category: "Life Insurance",
-    img: "assets/b2b_projects/life-3.png",
+    img: "assets/b2b_unique/life-3.png",
     desc: "Comprehensive estate planning brochure detailing trust funding and wealth preservation."
   },
   'life-4': {
     title: "Intergenerational Split-Dollar (IGSD) Strategy",
     category: "Life Insurance",
-    img: "assets/b2b_projects/life-4.png",
+    img: "assets/b2b_unique/life-4.png",
     desc: "Wealth transfer brochure outlining intergenerational split-dollar life insurance structures."
   },
   'life-5': {
     title: "Summary of Key Tax Provisions in OBBB Act",
     category: "Life Insurance",
-    img: "assets/b2b_projects/life-5.png",
+    img: "assets/b2b_unique/life-5.png",
     desc: "Executive summary of key tax law provisions and life insurance policy benefits."
   },
   'life-6': {
     title: "Seven Creative Principles Brand Book",
     category: "Life Insurance",
-    img: "assets/b2b_projects/life-6.png",
+    img: "assets/b2b_unique/life-6.png",
     desc: "Official brand standards book and visual design methodology handbook."
   },
   'life-7': {
     title: "The Partnership You Need To Grow Recruiting Flyer",
     category: "Life Insurance",
-    img: "assets/rendered_covers/life-5.png",
+    img: "assets/b2b_unique/life-7.png",
     desc: "Executive business growth flyer created for Simplicity advisor recruitment programs."
   },
   'life-8': {
     title: "BKA Financial Client Planning Strategies Flyer",
     category: "Life Insurance",
-    img: "assets/rendered_covers/life-8.png",
+    img: "assets/b2b_unique/life-8.png",
     desc: "Planning strategies flyer designed for BKA Financial client consultations."
   },
   'life-9': {
     title: "Simplicity Sales Training Performance Case Study",
     category: "Life Insurance",
-    img: "assets/rendered_covers/life-6.png",
+    img: "assets/b2b_unique/life-9.png",
     desc: "In-depth case study collateral detailing sales enablement performance and advisor training."
   },
   'annuity-1': {
     title: "Advisor Growth Forum Scalable Growth Flyer",
     category: "Annuity",
-    img: "assets/rendered_covers/annuity-1.png",
+    img: "assets/b2b_unique/annuity-1.png",
     desc: "Downloadable flyer for the Advisor Growth Forum focused on scalable practice growth."
   },
   'annuity-2': {
     title: "Advisors Resource Annuity Rate Update",
     category: "Annuity",
-    img: "assets/rendered_covers/annuity-2.png",
+    img: "assets/b2b_unique/annuity-2.png",
     desc: "Monthly annuity interest rate schedule and contract crediting update for advisors."
   },
   'annuity-3': {
     title: "Puritan Life Interest Plus Annuity vs FIA Flyer",
     category: "Annuity",
-    img: "assets/rendered_covers/annuity-3.png",
+    img: "assets/b2b_unique/annuity-3.png",
     desc: "Comparative flyer analyzing fixed index annuities, MYGA yields, and traditional annuities."
   },
   'annuity-4': {
     title: "Enduris 6 FIA Product Highlight Sheet",
     category: "Annuity",
-    img: "assets/Partnership_Flyer.png",
+    img: "assets/b2b_unique/annuity-4.png",
     desc: "Fixed index annuity highlight sheet detailing participation rates and principal protection."
   },
   'annuity-5': {
     title: "Enduris FIA 10 Premium Bonus Overview",
     category: "Annuity",
-    img: "assets/Cash_Balance_Plan_Flyer.png",
+    img: "assets/b2b_unique/annuity-5.png",
     desc: "Annuity premium bonus overview detailing upfront bonus crediting and retirement accumulation."
   },
   'annuity-6': {
     title: "Brokers Edge Safe Harbor Annuity Campaign",
     category: "Annuity",
-    img: "assets/Asset_Protection_Earn_Interest_Flyer.png",
+    img: "assets/b2b_unique/annuity-6.png",
     desc: "Digital campaign banner promoting Safe Harbor fixed index annuity solutions."
   },
   'annuity-7': {
     title: "Allianz Life Sales Forum Carrier Event Flyer",
     category: "Annuity",
-    img: "assets/Sales_Training_Case_Study.png",
+    img: "assets/b2b_unique/annuity-7.png",
     desc: "Carrier partner event collateral designed for the Allianz Life Sales Forum."
   },
   'annuity-8': {
     title: "Coastal Insurance Consulting Products Flyer",
     category: "Annuity",
-    img: "assets/National_Accounts_Bio_Sheet.png",
+    img: "assets/b2b_unique/annuity-8.png",
     desc: "Turnkey product flyer designed for Coastal Insurance Consulting advisors."
   },
   'annuity-9': {
     title: "Daly Brokerage Exclusive Webinar Series Flyer",
     category: "Annuity",
-    img: "assets/Protect_Your_Paycheck_Infographic.png",
+    img: "assets/b2b_unique/annuity-9.png",
     desc: "Educational webinar series collateral for Daly Brokerage producers."
   },
   'ltc-1': {
     title: "Simplicity LTC Pros & Cons Consumer Guide",
     category: "Asset-Based LTC",
-    img: "assets/Protect_Your_Paycheck_Infographic.png",
+    img: "assets/b2b_unique/ltc-1.png",
     desc: "Consumer guide comparing pros and cons of asset-based LTC policies vs traditional care."
   },
   'ltc-2': {
     title: "Simplicity LTC Co-Branding Process Guide",
     category: "Asset-Based LTC",
-    img: "assets/National_Accounts_Bio_Sheet.png",
+    img: "assets/b2b_unique/ltc-2.png",
     desc: "Advisor co-branding workflow guide for custom asset-based LTC marketing materials."
   },
   'ltc-3': {
     title: "AssetLock Trigger System Client Flyer",
     category: "Asset-Based LTC",
-    img: "assets/Asset_Protection_Earn_Interest_Flyer.png",
+    img: "assets/b2b_unique/ltc-3.png",
     desc: "AssetLock client flyer explaining automated portfolio risk trigger protection."
   },
   'ltc-4': {
     title: "2025 Simplicity LTC Road Show Presentation",
     category: "Asset-Based LTC",
-    img: "assets/rendered_covers/ltc-4.png",
+    img: "assets/b2b_unique/ltc-4.png",
     desc: "Nationwide roadshow collateral and presentation deck for asset-based LTC specialists."
   },
   'ltc-5': {
     title: "Simplicity AssetLock Investor Overview Brochure",
     category: "Asset-Based LTC",
-    img: "assets/Cash_Balance_Plan_Flyer.png",
+    img: "assets/b2b_unique/ltc-5.png",
     desc: "Asset-based long-term care investor overview detailing asset preservation and care benefits."
   },
   'ltc-6': {
     title: "Linked Benefit LTC Request Form",
     category: "Asset-Based LTC",
-    img: "assets/Seven_Principles_Cover.png",
+    img: "assets/b2b_unique/ltc-6.png",
     desc: "Interactive advisor request form and proposal sheet for linked-benefit LTC quotes."
   },
   'ltc-7': {
     title: "Sub-IMO LTC Recruiting Webinar Banner",
     category: "Asset-Based LTC",
-    img: "assets/Simplicity Group Holdings Summit Office.jpg",
+    img: "assets/b2b_unique/ltc-7.png",
     desc: "Sub-IMO training and client presentation webinar graphics for LTC specialists."
   },
   'ltc-8': {
     title: "Sub-IMO LTC Producer Invitation Banner",
     category: "Asset-Based LTC",
-    img: "assets/Partnership_Flyer.png",
+    img: "assets/b2b_unique/ltc-8.png",
     desc: "Producer invitation graphics for sub-IMO long-term care events."
   },
   'ltc-9': {
     title: "Care Protection Benefit Allocation Pathway",
     category: "Asset-Based LTC",
-    img: "assets/Sales_Training_Case_Study.png",
+    img: "assets/b2b_unique/ltc-9.png",
     desc: "Visual flowchart mapping indemnity benefit payouts and tax-free care reimbursements."
   },
   'disability-1': {
     title: "Simplicity DI Policy Definitions by Carrier Guide",
     category: "Disability Insurance",
-    img: "assets/b2b_projects/disability-1.png",
+    img: "assets/b2b_unique/disability-1.png",
     desc: "Carrier policy definition guide comparing own-occupation and residual disability riders."
   },
   'disability-2': {
     title: "DI Issue & Participation (I&P) Limits Matrix",
     category: "Disability Insurance",
-    img: "assets/b2b_projects/disability-2.png",
+    img: "assets/b2b_unique/disability-2.png",
     desc: "Carrier issue and participation limit matrix for medical professionals and executives."
   },
   'disability-3': {
     title: "Disability Consumer Buy-Sell Funding Flyer",
     category: "Disability Insurance",
-    img: "assets/b2b_projects/disability-3.png",
+    img: "assets/b2b_unique/disability-3.png",
     desc: "Business buy-sell disability funding brochure protecting partner equity during disability."
   },
   'disability-4': {
     title: "Business Overhead Expense (BOE) Disability Flyer",
     category: "Disability Insurance",
-    img: "assets/b2b_projects/disability-4.png",
+    img: "assets/b2b_unique/disability-4.png",
     desc: "Business overhead expense flyer protecting small business operating costs during medical leave."
   },
   'disability-5': {
     title: "Disability Educational Consumer Guide",
     category: "Disability Insurance",
-    img: "assets/b2b_projects/disability-5.png",
+    img: "assets/b2b_unique/disability-5.png",
     desc: "Educational consumer guide explaining income replacement ratios and disability terms."
   },
   'disability-6': {
     title: "Protect Your Paycheck Disability Infographic",
     category: "Disability Insurance",
-    img: "assets/Protect_Your_Paycheck_Infographic.png",
+    img: "assets/b2b_unique/disability-6.png",
     desc: "Disability insurance visual infographic engineered for client consultations."
   },
   'disability-7': {
     title: "Disability Protect Income Campaign Banner",
     category: "Disability Insurance",
-    img: "assets/Simplicity Group Holdings Summit Office.jpg",
+    img: "assets/b2b_unique/disability-7.png",
     desc: "Digital marketing campaign graphics empowering agents to lead paycheck protection conversations."
   },
   'disability-8': {
     title: "Disability Missing Link Campaign Banner",
     category: "Disability Insurance",
-    img: "assets/National_Accounts_Bio_Sheet.png",
+    img: "assets/b2b_unique/disability-8.png",
     desc: "Advisor presentation deck graphics highlighting the income protection gap in retirement."
   },
   'disability-9': {
     title: "Dempsey Companies Informal Application Form",
     category: "Disability Insurance",
-    img: "assets/Partnership_Flyer.png",
+    img: "assets/b2b_unique/disability-9.png",
     desc: "Informal application and authorization form for Dempsey Companies disability producers."
   },
   'wealth-1': {
     title: "Redefining Risk Tolerance White Paper",
     category: "Wealth & Securities",
-    img: "assets/iStock-1269045922.jpg",
+    img: "assets/b2b_unique/wealth-1.png",
     desc: "Simplicity Wealth white paper detailing risk tolerance measurement and VaR continua diagrams."
   },
   'wealth-2': {
     title: "DOL Fiduciary Rule & Compliance Disclosure Form",
     category: "Wealth & Securities",
-    img: "assets/National_Accounts_Bio_Sheet.png",
+    img: "assets/b2b_unique/wealth-2.png",
     desc: "DOL fiduciary rule compliance form and best interest disclosure documentation."
   },
   'wealth-3': {
     title: "Account Management Policies & Procedures Disclosure",
     category: "Wealth & Securities",
-    img: "assets/Seven_Principles_Cover.png",
+    img: "assets/b2b_unique/wealth-3.png",
     desc: "Regulatory disclosure document outlining Simplicity Wealth account management procedures."
   },
   'wealth-4': {
     title: "Blue Ocean Financial Client Binder Cover",
     category: "Wealth & Securities",
-    img: "assets/Cash_Balance_Plan_Flyer.png",
+    img: "assets/b2b_unique/wealth-4.png",
     desc: "Client onboarding binder cover designed for Blue Ocean Financial advisors."
   },
   'wealth-5': {
     title: "Benefit RFP Corporate Presentation Folder",
     category: "Wealth & Securities",
-    img: "assets/Sales_Training_Case_Study.png",
+    img: "assets/b2b_unique/wealth-5.png",
     desc: "Corporate presentation folder design created for Benefit RFP executive proposals."
   },
   'wealth-6': {
     title: "Simplicity Consulting Repeat Champions Campaign",
     category: "Wealth & Securities",
-    img: "assets/Partnership_Flyer.png",
+    img: "assets/b2b_unique/wealth-6.png",
     desc: "Internal recognition campaign collateral for the Simplicity Consulting Team."
   },
   'wealth-7': {
     title: "Simplicity Cash Balance Plan Solution Sheet",
     category: "Wealth & Securities",
-    img: "assets/Cash_Balance_Plan_Flyer.png",
+    img: "assets/b2b_unique/wealth-7.png",
     desc: "Advanced planning solution sheet for business owners and high-income partners."
   },
   'wealth-8': {
     title: "National Accounts Leadership Bio Template",
     category: "Wealth & Securities",
-    img: "assets/National_Accounts_Bio_Sheet.png",
+    img: "assets/b2b_unique/wealth-8.png",
     desc: "Point-of-sale bio sheet template for Simplicity National Accounts leadership."
   },
   'wealth-9': {
     title: "Broker-Dealer PPT Flowchart Architecture",
     category: "Wealth & Securities",
-    img: "assets/Simplicity-Home-Page-Image-Collage.png",
+    img: "assets/b2b_unique/wealth-9.png",
     desc: "Operations flowchart mapping broker-dealer clearing and RIA custodial services."
   },
 
