@@ -321,6 +321,91 @@ const ASSET_DETAILS = {
     img: 'assets/Thoroughbred-Financial-Group-Logo.png',
     desc: 'Custom crest emblem and vector logo system designed for Thoroughbred Financial Group.'
   },
+  'agent-logo-abundant-living': {
+    title: "Abundant Living Financial Services Logo",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-abundant-living.png",
+    desc: "Vector CMYK logo design created for Abundant Living Financial Services."
+  },
+  'agent-logo-advisor-foundry': {
+    title: "Advisor Foundry Corporate Logo",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-advisor-foundry.png",
+    desc: "Modern corporate logo mark designed for Advisor Foundry."
+  },
+  'agent-logo-advocate-life': {
+    title: "Advocate Life Group Logo System",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-advocate-life.png",
+    desc: "Vector corporate identity and brand emblem created for Advocate Life Group."
+  },
+  'agent-logo-advisors-360': {
+    title: "Advisors 360 Brand Identity Mark",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-advisors-360.png",
+    desc: "Circular crest emblem and corporate logo designed for Advisors 360."
+  },
+  'agent-logo-abood-wealth': {
+    title: "Abood Wealth Management Identity",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-abood-wealth.png",
+    desc: "Horizontal corporate wordmark and identity system for Abood Wealth Management."
+  },
+  'agent-logo-ams-financial': {
+    title: "Aaron M Smith Financial Group Logo",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-ams-financial.png",
+    desc: "Executive typography mark designed for Aaron M Smith Financial Group."
+  },
+  'agent-logo-alg-legacies': {
+    title: "Abundant Legacies Group Logo",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-alg-legacies.png",
+    desc: "Vector emblem and brand mark designed for Abundant Legacies Group."
+  },
+  'agent-logo-aph-hub': {
+    title: "Advanced Planning HUB Brand Mark",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-aph-hub.png",
+    desc: "Modular brand mark and logo design created for Advanced Planning HUB."
+  },
+  'agent-logo-adventus-legacy': {
+    title: "Adventus Life & Legacy Logo",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-adventus-legacy.png",
+    desc: "Executive black vector mark designed for Adventus Life & Legacy."
+  },
+  'agent-logo-advocate-wealth': {
+    title: "Advocate Wealth Advisors Logo",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-advocate-wealth.png",
+    desc: "Bespoke corporate identity and vector logo created for Advocate Wealth Advisors."
+  },
+  'agent-logo-abrams-solutions': {
+    title: "Abrams Insurance Solutions Logo",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-abrams-solutions.png",
+    desc: "Corporate insurance logo mark created for Abrams Insurance Solutions."
+  },
+  'agent-logo-adams-hansen': {
+    title: "Adams-Hansen & Associates Logo",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-adams-hansen.png",
+    desc: "Partner firm corporate logo and typography mark for Adams-Hansen & Associates."
+  },
+  'agent-logo-afs-strategies': {
+    title: "Advanced Financial Strategies Logo",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-afs-strategies.png",
+    desc: "Vector brand identity and corporate logo package created for Advanced Financial Strategies."
+  },
+  'agent-logo-apf-finances': {
+    title: "Advanced Planning & Finances Logo",
+    category: 'Logo Design',
+    img: "assets/advisor_logos/logo-apf-finances.png",
+    desc: "Executive logo system designed for Advanced Planning & Finances, Inc."
+  },
+
   'agent-social-401k': {
     title: '401(k) Distribution & Rollover Social Series',
     category: 'Social Posts',
