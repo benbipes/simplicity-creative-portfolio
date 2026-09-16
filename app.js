@@ -540,42 +540,42 @@ const ASSET_DETAILS = {
     desc: 'High-converting social artwork addressing tax procrastination and urgent retirement plan reviews for independent agent feeds.'
   },
 
-  // Figma UI/UX Showcase
+  // Figma UI/UX Showcase (Agent Center & LifeLink)
   'ui-home-collage': {
-    title: 'Simplicity Master Web Homepage Collage',
-    category: 'Design System',
+    title: 'Simplicity Master Web & Agent Center Collage',
+    category: 'Agent Center',
     img: 'assets/ui_unique/ui-home-collage.png',
-    desc: 'Figma-crafted design system grid and homepage layout composition showcasing partner ecosystem assets, brand silos, and hero section components.'
+    desc: 'Figma-crafted design system grid and master layout composition for the Simplicity Web & Agent Center ecosystem.'
   },
   'ui-portal-sso': {
     title: 'Agent Resource Center SSO Interface',
-    category: 'Portals & SSO',
+    category: 'Agent Center',
     img: 'assets/ui_unique/ui-portal-sso.png',
-    desc: 'User interface design for single-sign-on (SSO) advisor dashboard and resource center navigation layout.'
+    desc: 'User interface design for single-sign-on (SSO) advisor dashboard, carrier tools, and resource center navigation.'
   },
-  'ui-step-cards': {
-    title: 'Sequential Process UI Cards Component',
-    category: 'Component Specs',
-    img: 'assets/ui_unique/ui-step-cards.png',
-    desc: 'Modular step-by-step process component library used across web onboarding flows and landing pages.'
+  'ui-lifelink-quoting': {
+    title: 'Simplicity LifeLink Quoting Engine UI',
+    category: 'LifeLink Portal',
+    img: 'assets/ui_unique/ui-lifelink-quoting.png',
+    desc: 'Interactive user interface design for Simplicity LifeLink term life quoting engine, carrier rate comparisons, and instant illustration workflows.'
   },
-  'ui-summit-dashboard': {
-    title: 'AssetLock Real-Time Portfolio Monitoring UI',
-    category: 'Portals & SSO',
-    img: 'assets/ui_unique/ui-summit-dashboard.png',
-    desc: 'Interactive dashboard user interface designed for advisors and clients to monitor real-time portfolio thresholds, account balances, and security alerts.'
+  'ui-lifelink-recruitment': {
+    title: 'Simplicity LifeLink Downline Recruitment Portal',
+    category: 'LifeLink Portal',
+    img: 'assets/ui_unique/ui-lifelink-recruitment.png',
+    desc: 'Advisor portal interface for managing downline agent recruitment, contracting links, and producer onboarding.'
   },
-  'ui-icon-system': {
-    title: 'Advanced Markets UI Icon Component System',
-    category: 'Component Specs',
-    img: 'assets/ui_unique/ui-icon-system.png',
-    desc: 'Vector UI icon component system designed for financial web applications, dashboards, and mobile views.'
+  'ui-lifelink-account': {
+    title: 'Simplicity LifeLink Account Management Suite',
+    category: 'LifeLink Portal',
+    img: 'assets/ui_unique/ui-lifelink-account.png',
+    desc: 'Modular UI component layout for producer account settings, carrier contracting status, and profile customization.'
   },
-  'ui-landing-system': {
-    title: 'Jenkins Financial Advisor Web Layout UI',
-    category: 'Design System',
-    img: 'assets/ui_unique/ui-landing-system.png',
-    desc: 'Responsive web interface design for high-converting financial advisor marketing, services overview, and lead capture.'
+  'ui-agent-center-tools': {
+    title: 'Agent Center Producer Resources & Tools',
+    category: 'Agent Center',
+    img: 'assets/ui_unique/ui-agent-center-tools.png',
+    desc: 'Comprehensive Agent Center dashboard interface designed for multi-carrier access, marketing toolkits, and sales enablement.'
   }
 };
 
