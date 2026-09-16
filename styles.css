@@ -888,3 +888,52 @@ h1, h2, h3, h4, .brand-name {
     display: none;
   }
 }
+
+/* UI Live Web Application Buttons */
+.ui-action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.ui-portal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.875rem 1.75rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.agent-center-btn {
+  background-color: var(--navy-800);
+  color: var(--white);
+  border: 1px solid var(--navy-800);
+}
+
+.agent-center-btn:hover {
+  background-color: var(--navy-900);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: var(--white);
+}
+
+.lifelink-btn {
+  background-color: var(--blue-600);
+  color: var(--white);
+  border: 1px solid var(--blue-600);
+}
+
+.lifelink-btn:hover {
+  background-color: var(--blue-500);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: var(--white);
+}
